@@ -1,0 +1,27 @@
+{
+  "name": "koa1",
+  "version": "0.0.1",
+  "description": "koa + routing-controllers + objection.js + pg",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build && node dist/app.js",
+    "build": "tsc"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/knex": "^0.14.9",
+    "knex": "^0.14.4",
+    "koa": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-multer": "^1.0.2",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.15.0",
+    "objection": "^1.0.0",
+    "objection-db-errors": "^1.0.0",
+    "reflect-metadata": "^0.1.12",
+    "routing-controllers": "^0.7.7",
+    "typeorm": "^0.2.0-alpha.28",
+    "typescript": "^2.7.2"
+  }
+}

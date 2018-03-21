@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "removeComments": false,
+    "experimentalDecorators": true,
+    "sourceMap": true
+  },
+  "emitDecoratorMetadata": true,
+  "experimentalDecorators": true,
+  "exclude" : [
+    "node_modules",
+    "typings",
+    "dist"
+  ]
+}
