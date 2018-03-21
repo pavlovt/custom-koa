@@ -5,9 +5,8 @@ import Person from '../models/Person';
 export default class UserCtrl {
 
     @Get("/users")
-    async getAll() {
-      const people = await Person.query();
-      return people;
+    getAll() : any {
+      return Person.query();
     }
 
     /*@Get("/users/:id")
